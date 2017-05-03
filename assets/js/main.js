@@ -37,6 +37,44 @@
 					skel.breakpoint('narrower').active
 				);
 			});
+		
+		// Submit Form
+		$('form').on('submit', function(e) {
+			e.preventDefault()
+			var name = $("[name='name']").val()
+			var email = $("[name='email']").val()
+			var domain = $("[name='domains']").val()
+			var message = $("[name='message']").val()
+			if(!name || !email) {
+				// error
+				swal("Oops...", "Fill All Fields!", "error");
+				return
+			}
+			if(!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)){
+				//error
+				swal("Oops...", "Enter valid Email!", "error");
+				return
+			}
+			$('.js-submit-btn').val('Submitting...')
+			$.post('https://api.airtable.com/v0/appJNcTf7acL8gsRD/QueryForm?api_key=key5doU0Y1PzvtKxI', {
+					fields: {
+						email: email,
+						name: name,
+						domain: domain,
+						message: message,
+						timestamp: new Date().toISOString()
+					}
+				}).done(function(res){
+				console.log(res)
+				swal("Sweet!", "Successfully Submitted!", "success")
+				$('form')[0].reset()
+				$('.js-submit-btn').val('Submit')
+			}).fail(function(e) {
+				console.log(e)
+				$('.js-submit-btn').val('Submit')
+				swal("Oops...", "Something went wrong!", "error");
+			})
+		})
 
 	});
 
