@@ -2985,6 +2985,10 @@ select {
 					height: 15em;
 					width: 100%;
 				}
+				
+				.feature .image img{
+					height: 15em;
+				}
 
 				.feature .content {
 					border: solid 1px rgba(224, 224, 224, 0.75);
