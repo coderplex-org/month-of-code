@@ -35,49 +35,49 @@
 
 				<div class="box alt container" id="domains">
 					<section class="feature left">
-						<a href="#" class="image icon fa-code"><img src="images/pic01.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/DAS.png" alt="" /></a>
 						<div class="content">
 							<h3>Data Structures & Algorithms</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/RFN.png" alt="" /></a>
 						<div class="content">
 							<h3>React + Node + Firebase</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon fa-code"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/HCJ.png" alt="" /></a>
 						<div class="content">
 							<h3>HTML + CSS + JavaScript</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/PD.png" alt="" /></a>
 						<div class="content">
 							<h3>Python + Django</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon fa-code"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/PL.png" alt="" /></a>
 						<div class="content">
 							<h3>PHP + Laravel</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/JA.png" alt="" /></a>
 						<div class="content">
 							<h3>Java + Android</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon fa-code"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image"><img src="images/FP.png" alt="" /></a>
 						<div class="content">
 							<h3>Functional Programming</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
@@ -106,7 +106,7 @@
 					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
 					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
 
-					<form method="post" action="#" id="form">
+					<form id="form">
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name" />
@@ -118,6 +118,7 @@
 						<div class="row">
 							<div class="12u">
 								<select name="domains">
+									<option value="none">Please select a domain</option>
 									<option value="dsa">Data Structures and Algorithms</option>
 									<option value="rnf">React + Node + Firebase</option>
 									<option value="hcj">HTML + CSS + JavaScript</option>
@@ -137,7 +138,7 @@
 						<div class="row">
 							<div class="12u">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input class='js-submit-btn' type="submit" value="Submit" /></li>
 								</ul>
 							</div>
 						</div>
@@ -163,6 +164,10 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.2/sweetalert2.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.2/sweetalert2.min.js"></script>
+			<!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>

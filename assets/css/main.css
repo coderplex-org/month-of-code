@@ -1818,6 +1818,11 @@
 		line-height: 1.75em;
 	}
 
+/* fixes https://github.com/fcc-hyd/month-of-code/issues/2 in chrome for some O.S's*/
+select {
+	color: #6e6e6e !important;
+}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -2114,6 +2119,7 @@
 
 		.image img {
 			display: block;
+			width: 100%;
 		}
 
 		.image.fit {
@@ -2978,6 +2984,10 @@
 					float: none;
 					height: 15em;
 					width: 100%;
+				}
+				
+				.feature .image img{
+					height: 15em;
 				}
 
 				.feature .content {
