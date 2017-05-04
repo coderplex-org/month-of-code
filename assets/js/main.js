@@ -55,6 +55,11 @@
 				swal("Oops...", "Enter valid Email!", "error");
 				return
 			}
+			if(domain === 'none') {
+				//error
+				swal("Oops...", "Please select a domain!", "error");
+				return
+			}
 			$('.js-submit-btn').val('Submitting...')
 			$.post('https://api.airtable.com/v0/appJNcTf7acL8gsRD/QueryForm?api_key=key5doU0Y1PzvtKxI', {
 					fields: {
