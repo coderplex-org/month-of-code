@@ -1820,7 +1820,7 @@
 
 /* fixes https://github.com/fcc-hyd/month-of-code/issues/2 in chrome for some O.S's*/
 select {
-	color: #6e6e6e !important;
+	color: #CCC !important;
 }
 
 	a {
@@ -2494,7 +2494,8 @@ select {
 			}
 
 		.feature.right {
-			text-align: right;
+			text-align: left;
+
 		}
 
 			.feature.right .image {
