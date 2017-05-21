@@ -1811,7 +1811,7 @@
 	}
 
 	body, input, select option, textarea {
-		color: #FFF !important;
+		color: #6e6e6e;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1820,8 +1820,11 @@
 
 	/* fixes https://github.com/fcc-hyd/month-of-code/issues/2 in chrome for some O.S's*/
 	select {
-		background-color : #4eb980 !important;
-		opacity: 0.6 !important;
+		opacity: 0.5 !important;
+		background-color : #4eb980 !important;		
+	}
+	select option {
+		color : #FFF !important;
 	}
 
 	a {
