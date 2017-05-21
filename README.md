@@ -16,4 +16,4 @@ Month of Code is the most recent idea we have come up with to pursue our mission
 - For any other questions, please post them in our [Facebook group](https://www.facebook.com/groups/free.code.camp.hyderabad)
 
 ## Apply
-You can apply for the program by [submitting the form](file:///C:/users/kapil/workspace/CoderPlex/month-of-code/index.html#form) on the bottom of our website. 
+You can apply for the program by [submitting the form](https://fcc-hyd.github.io/month-of-code/#form) on the bottom of our website. 
