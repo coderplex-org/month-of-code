@@ -66,6 +66,7 @@
 				fields: {
 					email: email,
 					name: name,
+					projects: projects,
 					domain: domain,
 					message: message,
 					timestamp: new Date().toISOString()
