@@ -2680,6 +2680,7 @@
 			}
 
 		#footer input[type="text"]:focus,
+		#footer input[type="url"]:focus,
 		#footer input[type="password"]:focus,
 		#footer input[type="email"]:focus,
 		#footer select:focus,
