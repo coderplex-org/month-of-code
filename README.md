@@ -7,6 +7,7 @@ Month of Code is the most recent idea we have come up with to pursue our mission
 
 ## FAQ
 - This one month program is completly free of cost
+- You can only enroll in one domain at a time
 - This program will happen from 1st of June to 30th of June
 - The basic selection criteria for the program :
 	- Each candidates needs to be able to invest the specified time per day for their respective domain
