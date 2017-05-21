@@ -43,6 +43,7 @@
 			e.preventDefault()
 			var name = $("[name='name']").val()
 			var email = $("[name='email']").val()
+			var projects = $("[name='projects']").val()
 			var domain = $("[name='domains']").val()
 			var message = $("[name='message']").val()
 			if(!name || !email) {
@@ -65,6 +66,7 @@
 					fields: {
 						email: email,
 						name: name,
+						projects: projects,
 						domain: domain,
 						message: message,
 						timestamp: new Date().toISOString()
