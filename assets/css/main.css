@@ -2027,6 +2027,7 @@
 	}
 
 	input[type="text"],
+	input[type="url"],
 	input[type="password"],
 	input[type="email"],
 	select,
@@ -2053,6 +2054,7 @@
 	}
 
 	input[type="text"]:focus,
+	input[type="url"]:focus,
 	input[type="password"]:focus,
 	input[type="email"]:focus,
 	select option:focus,
@@ -2062,6 +2064,7 @@
 	}
 
 	input[type="text"],
+	input[type="url"],
 	input[type="password"],
 	input[type="email"],
 	select {
