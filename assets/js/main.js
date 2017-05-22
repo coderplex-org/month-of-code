@@ -46,7 +46,7 @@
 			var projects = $("[name='projects']").val()
 			var domain = $("[name='domains']").val()
 			var message = $("[name='message']").val()
-			if (!name || !email) {
+			if (!name || !email || !message) {
 				// error
 				swal("Oops...", "Fill All Fields!", "error");
 				return
