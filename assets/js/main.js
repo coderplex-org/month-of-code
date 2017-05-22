@@ -66,6 +66,11 @@
 				swal("Oops...", "Please select a domain!", "error");
 				return
 			}
+			if (message.length < 600) {
+				//error
+				swal("Oops...", "Please tell us why you're applying for this domain in about 600 characters", "error");
+				return
+			}
 			$('.js-submit-btn').val('Submitting...')
 			$.post('https://api.airtable.com/v0/appJNcTf7acL8gsRD/QueryForm?api_key=key5doU0Y1PzvtKxI', {
 				fields: {
