@@ -10,9 +10,9 @@ Month of Code is the most recent idea we have come up with to pursue our mission
 - You can only enroll in one domain at a time
 - This program will take place from 1st of June to 30th of June
 - The basic selection criteria for the program :
-	- Each candidates needs to be able to invest the specified time per day for their respective domain
-	- They should be able to come down to the physical space on all five weekdays.
-	- They should meet all the domain specific prerequisites
+	- You need to be able to invest the specified time per day for the domain of your choice
+	- You should be able to come down to the physical space on all five weekdays.
+	- You should meet all the domain specific prerequisites
 - You should have a laptop of your own to participate in the program
 - We do not take care of the food for the participates coming down to the physical space
 - For any other questions, please post them in our [Facebook group](https://www.facebook.com/groups/free.code.camp.hyderabad)
