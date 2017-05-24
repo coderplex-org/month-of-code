@@ -6,6 +6,8 @@ Month of Code is a one-month long self-directed free developer program to learn 
 Month of Code is the most recent idea we have come up with to pursue our mission of building a culture of self-leanring, collaboration, learning-through-building and peer-learning in Hyderabad, India. The program is free of cost, because we're not interested in making money, but rather to improve the state of development here.
 
 ## FAQ
+
+- Please read the FAQ thoroughly. If you have any questions, please ask them in our gitter chat room https://gitter.im/fcc-hyd/general 
 - This one month program is completely free of cost
 - You can only enroll in one domain at a time
 - This program will take place from 1st of June to 30th of June
