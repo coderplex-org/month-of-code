@@ -7,7 +7,7 @@ Month of Code is the most recent idea we have come up with to pursue our mission
 
 ## FAQ
 
-- Please read the FAQ thoroughly. If you have any questions, please ask them in our [gitter chat room](https://gitter.im/fcc-hyd/general) 
+- Please read the FAQ thoroughly. If you have any questions, please ask them in our [facebook group](https://www.facebook.com/groups/free.code.camp.hyderabad/) 
 - This one month program is completely free of cost
 - You can only enroll in one domain at a time
 - This program will take place from 1st of June to 30th of June
