@@ -18,6 +18,7 @@ Month of Code is the most recent idea we have come up with to pursue our mission
 - You should have a laptop of your own to participate in the program
 - We do not take care of the food for the participates coming down to the physical space
 - Mentors will visit mentees when they have time and interact with them for few hours and rest of the time mentors will assign tasks which mentees have to work on their own or along with their peers. Mentors will be available in an online chat room to help with mentees questions. 
+- We will have assistanct mentors and guests with good experience come down frequently as well. 
 - If you feel you may have other obligations and can't allocate the necessary time once you start the program, please clearly communicate it in your application or in your acceptance email. 
 - For any other questions, please post them in our [Facebook group](https://www.facebook.com/groups/free.code.camp.hyderabad)
 
