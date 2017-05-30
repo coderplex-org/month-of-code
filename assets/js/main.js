@@ -46,46 +46,7 @@
 			var projects = $("[name='projects']").val()
 			var domain = $("[name='domains']").val()
 			var message = $("[name='message']").val()
-			if (!name || !email || !message) {
-				// error
-				swal("Oops...", "Fill All Fields!", "error");
-				return
-			}
-			if (!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/i.test(email)) {
-				//error
-				swal("Oops...", "Enter valid Email!", "error");
-				return
-			}
-			if (!/^(?:(?:https?|ftp):\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,}))\.?)(?::\d{2,5})?(?:[/?#]\S*)?$/i.test(projects)) {
-				//error
-				swal("Oops...", "Enter valid URL with either http:// or https://", "error");
-				return
-			}
-			if (domain === 'none') {
-				//error
-				swal("Oops...", "Please select a domain!", "error");
-				return
-			}
-			$('.js-submit-btn').val('Submitting...')
-			$.post('https://api.airtable.com/v0/appJNcTf7acL8gsRD/QueryForm?api_key=key5doU0Y1PzvtKxI', {
-				fields: {
-					email: email,
-					name: name,
-					projects: projects,
-					domain: domain,
-					message: message,
-					timestamp: new Date().toISOString()
-				}
-			}).done(function (res) {
-				console.log(res)
-				swal("Sweet!", "Successfully Submitted!", "success")
-				$('form')[0].reset()
-				$('.js-submit-btn').val('Submit')
-			}).fail(function (e) {
-				console.log(e)
-				$('.js-submit-btn').val('Submit')
-				swal("Oops...", "Something went wrong!", "error");
-			})
+			swal("Oops...", "We have closed off submissions for Month of Code.!", "info");
 		})
 
 		// smooth Scrolling
